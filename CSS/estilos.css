@@ -12,7 +12,7 @@
     --color_text-secundary: #f3f3f3;
     --color_text-tertiary: #ffffff;
     --main_color-primary: #473108c4;
-    --main_color-secundary: #5c3c00da;
+    --main_color-secundary: #362506c4;
     --background-color: #3a28019a;
     --lowText_font_size: 16px;
     --text_size_title: 40px;
@@ -296,40 +296,47 @@ header{
 }
 
 /*End Servicios*/
-
-/*Proyectos*/
-
-.container__proyect{
-    padding: 100px 0px;
-    background: var(--background-color);
-    margin-top: 100px;
-}
-
-.container__card-proyect {
-    display: flex;
-    justify-content: space-around;
+/*nombre-correo*/
+.form{
+    padding: 50px;
+    margin: 10%;
+    width: 110px;
+    height: 10px;
     align-items: center;
 }
-
-.card__proyect {
+#message{
+    margin: 100%;
+    padding: 10px;
     width: 300px;
-    height: 300px;
-    padding: 20px;
-    box-sizing: border-box;
+    height: 50px;
     border-radius: 10px;
-    color: #fff;
-    text-align: left;
-    background-size: cover;
-    background-position: center;
+    background-color: rgb(241, 241, 241);  
 }
 
-.card__proyect h2, .card__proyect p {
-    margin: 0;
+#email{
+    margin: 100%;
+    padding: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
 }
 
-.card__proyect:hover {
-    transform: scale(1.05); 
-    transition: transform 0.3s ease; 
+#name{
+    margin: 100%;
+    padding: 10px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
 }
-
-/*End Proyectos*/
+.imagen.form{
+    padding: 50pxs;
+    margin: 100%;
+    width: 100px;
+    height: 100px;
+}
+.map-container{
+    margin: 100%;
+    padding:20px;
+}
